@@ -1,0 +1,29 @@
+#categoryNav{
+
+    display:flex;
+    /* border-bottom:2px solid green; */
+    line-height:4rem;
+    border-bottom: 2px solid gray;
+    justify-content: center;
+    width: 72%;
+    
+    /* background-color: red; */
+
+}
+
+.link_btn{
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 2rem;
+    background-color: #1d1d0d;
+    font-weight: bold;
+    border-radius: 5rem;
+   
+}
+
+.categoryLinks:hover{
+    background-color: aquamarine;
+}

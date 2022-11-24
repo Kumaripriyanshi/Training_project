@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: black; */
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+    /* opacity: 0.7; */
+    font-weight: bold;
+    line-height: 4rem;
+    position: fixed;
+    width: 100%;
+    /* margin-top: -2rem; */
+    /* top:17%; */
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    width:33rem;
+    justify-content: space-around;
+}
+
+.LoginSignUp{
+    display: flex;
+    height: 3rem;
+    width: 7rem;
+}
+
+.logo{
+    margin-left:-12rem;
+}
+
+.loginsbtn{
+    width: 100%;
+    border-radius: 5rem;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #b6afaf;
+    background-color: black;
+    cursor: pointer;
+    
+    
+
+}
+
+/* .container{
+    position: relative;
+} */
+
+.hoverLinks:hover{
+border-bottom: 3px solid black;
+}

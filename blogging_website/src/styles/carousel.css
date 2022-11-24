@@ -1,0 +1,25 @@
+/* 
+body{
+    overflow-x: hidden;
+}
+.carousel{
+    display :block;
+    animation:myanimation 5s infinite;
+    border: 2px solid red;
+    position:relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+@keyframes myanimation {
+0% {left:0rem }
+100% {left:95rem ;display: none; animation-delay: 200s; }
+
+
+} */
+
+
+.carousel_container{
+    
+}
